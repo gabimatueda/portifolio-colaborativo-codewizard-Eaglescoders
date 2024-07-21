@@ -9,7 +9,6 @@ const Team = () => {
     if (loading) return <Loader />;
     if (error) return <p className="text-red-500">Tivemos um erro! Tente novamente mais tarde.</p>;
 
-    console.log(data)
   return (
     <div>
             {data?.people.map((member) => (
